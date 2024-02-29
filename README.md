@@ -71,3 +71,22 @@ String.ConnectionString =
 
 De antemano comento que el proyecto no está finalizado, casi no disponía de tiempo entonces tuve que realizarlo ignorando algunas partes importantes.
 Ante cualquier consulta pueden comunicarse conmigo, con gusto responderé las dudas.
+
+Algunas capturas de pantalla:
+![alt text](image.png)
+
+![Cada item del menu lleva a su respectiva pantalla](image-1.png)
+
+![alt text](image-2.png)
+
+![Al clickear en alguna celda, permite editarlo](image-3.png)
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+![alt text](image-6.png)
+
+![alt text](image-7.png)
+
+![alt text](image-8.png)

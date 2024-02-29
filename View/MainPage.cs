@@ -61,5 +61,10 @@ namespace ABMdotNet.View
             ListSalesView listSales = new ListSalesView();
             listSales.Show();
         }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
