@@ -1,11 +1,6 @@
-
 # ABM Backend
 
 Prueba técnica para CLT
-
-
-
-
 
 Para clonar el proyecto
 
@@ -13,8 +8,8 @@ Para clonar el proyecto
   git clone https://github.com/buddhapy/ABMdotNet.git
 ```
 
-
 ## Usage/Examples
+
 Para la base de datos, utilicé la Oracle 21C Express
 
 ```javascript
@@ -48,7 +43,9 @@ CREATE TABLE Ventas (
 );
 
 ```
-e inserté datos de prueba 
+
+e inserté datos de prueba
+
 ```javascript
 INSERT INTO Productos (nombre, codigo_producto, precio) VALUES ('Camisa', 'CAM001', 29000);
 INSERT INTO Productos (nombre, codigo_producto, precio) VALUES ('Pantalón', 'PAN002', 39000);
@@ -62,9 +59,15 @@ INSERT INTO Ventas (id_cliente, id_producto, cantidad, monto_pagar) VALUES (1, 1
 INSERT INTO Ventas (id_cliente, id_producto, cantidad, monto_pagar) VALUES (2, 2, 1, 39000);  -- María compra 1 pantalón
 INSERT INTO Ventas (id_cliente, id_producto, cantidad, monto_pagar) VALUES (3, 3, 1, 59000);  -- Carlos compra 1 par de zapatos
 ```
+
 Dentro del archivo Connection.cs se debe modificar el String correspondiente a la conexión
+
 ```javascript
-String.ConnectionString = "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)" +
-                          "(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=xe)));" +
-                          "User Id=LFADMIN;Password=admin;";
+String.ConnectionString =
+  "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)" +
+  "(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=xe)));" +
+  "User Id=LFADMIN;Password=admin;";
 ```
+
+De antemano comento que el proyecto no está finalizado, casi no disponía de tiempo entonces tuve que realizarlo ignorando algunas partes importantes.
+Ante cualquier consulta pueden comunicarse conmigo, con gusto responderé las dudas.
