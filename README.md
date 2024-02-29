@@ -73,6 +73,7 @@ De antemano comento que el proyecto no está finalizado, casi no disponía de ti
 Ante cualquier consulta pueden comunicarse conmigo, con gusto responderé las dudas.
 
 Algunas capturas de pantalla:
+
 ![alt text](image.png)
 
 ![Cada item del menu lleva a su respectiva pantalla](image-1.png)
